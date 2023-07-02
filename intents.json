@@ -1,0 +1,42 @@
+{"intents" : [
+    { "tag" : "greetings", 
+      "patterns" : ["hello", "hey", "hi", "good day"],
+      "responses" : ["hello!", "hey how are you"]},
+
+      {
+        "tag": "age",
+        "patterns": ["how old are you?", "what's your age?", "age?"],
+        "responses": ["I am an AI chatbot, so I don't have an age."]
+      },
+
+      {
+        "tag": "name",
+        "patterns": ["what's your name?", "who are you?", "name?"],
+        "responses": ["I am an AI chatbot created by OpenAI."]
+      },
+      {
+        "tag": "shop hours",
+        "patterns": ["what are the shop hours?", "when is the shop open?", "shop hours?"],
+        "responses": ["The shop is open from 9 AM to 6 PM, Monday to Friday."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Your name?"],
+        "responses": ["I am an AI chatbot created by OpenAI."]
+      },
+      {
+        "tag": "stocks",
+        "patterns": ["Do you have stocks?", "Are the products in stock?", "Stock availability?"],
+        "responses": ["Yes, we currently have stocks available for our products."]
+      },
+      {
+        "tag": "price",
+        "patterns": ["What is the price of vegan milk?", "How much does vegan milk cost?", "Price of vegan milk?"],
+        "responses": ["The price of vegan milk is $X per bottle."]
+      },
+      {
+        "tag": "price",
+        "patterns": ["What is the price of soya paneer?", "How much does soya paneer cost?", "Price of soya paneer?"],
+        "responses": ["The price of soya paneer is $Y per pack."]
+      }
+]}
